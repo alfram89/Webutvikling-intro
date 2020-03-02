@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color: darkslategray;
+    text-align: justify;
+}
+
+#overskrift {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    word-spacing: 20px;
+}
+#text{
+    font-size: 17px;
+}
+button {
+    color: darkseagreen;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: darkslategrey;
+}
+#nettl {
+    font-family: monospace;
+    padding: 2px 2px 2px 2px;
+    font-size: 20px;
+}
+img {
+    width: 55px;
+
+}

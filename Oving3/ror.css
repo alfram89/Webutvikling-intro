@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-image: url(pipes.jpg);
+    background-size: 100%;
+    
+}
+
+.overskrift {
+    font-size: 50px;
+    text-align: center;
+    
+}
+#content {
+    width: 1200px;
+    height: auto;
+    margin-top: 25px;
+}
+
+#oaatider {
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+table, tr, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 15px;
+    width: 500px;
+    height: 25px;
+    padding: 5px;
+}
+.main {
+    background-color: lightgray;
+    margin: 35px 35px 35px 35px;
+    opacity: 0.95;
+    border-style: groove;
+    
+}
+#forkunder {
+    margin-left: 20px;
+    border: 1px solid black;
+}
+dl, dt, dd {
+    padding: 5px;
+}
+dd {
+    font-style: italic;
+}
+dt {
+    text-decoration: underline;
+    font-weight: bold;
+}
+#oforkunder {
+    font-size: 18px;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background-image: url(horseb.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: lightgrey;
+    margin-left: 30px;
+}
+#overskrift {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+#beskrivelse {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#info {
+    margin: auto;
+    padding: 24px
+}
+#loggin {
+    font-style: oblique;
+}
+#form {
+    padding: 10px;
+}

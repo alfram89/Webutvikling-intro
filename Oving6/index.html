@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Test av jQuery</title>
+        <script src="jquery-2.1.4.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("body").css("background-color","darkgrey")
+                $("img").css("opacity",.5);
+                
+                $("img").mouseover(function() {
+                    $(this).css("opacity",1)
+                });
+                $("img").mouseleave(function() {
+                    $(this).css("opacity",.5)
+            
+                });
+            });
+        </script>
+    
+    </head>
+    <body>
+        <img src="gimp.png">
+        <br>
+        <img src="linux.png">
+        <br>
+        <img src="terminal.png">
+        <br>
+        <img src="arch.png" hight="200" width="300">
+        <br>
+        <img src="Thunar.png">
+        
+        
+    </body>
+
+</html>

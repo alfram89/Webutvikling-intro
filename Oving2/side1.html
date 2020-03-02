@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="no">
+<head>
+    <title>Info</title>
+</head>
+<body>
+    <a href="startside.html">Tilbake</a>
+    <h1>Informasjon</h1>
+    <p>Denne siden blir utviklet for å lære seg HTML.</p>
+    <br>
+    <a href="#kjerne">Kjerne</a><br>
+    <a href="#Linux">Linux</a><br>
+    <a href="#FreeBSD">FreeBSD</a><br>
+    <a href="#HTML">HTML</a><br>
+    <hr>
+    <h3 id="Kjerne">Kjerne(Opperativsystem)</h3>
+    <p>En kjerne (eng. kernel) er den innerste og viktigste delen av et operativsystem.
+
+Kjernens oppgave er å starte systemet, håndtere ressurstildelingen, samt å kommunisere med maskinvaren. Vanligvis fungerer kjernen som et beskyttende bindeledd mellom maskinvaren og de programmene som kjøres på systemet. Programmene har i alminnelighet ikke direkte tilgang til maskinvaren, men må først gå via kjernen. Kjernen holder til og med programmene adskilte fra hverandre slik at et program som krasjer ikke nødvendighvis drar med seg andre programmer i fallet. For at programmer skal kunne samarbeide med hverandre sørger kjernen også for at disse kan kommunisere med hverandre, enten lokalt på en avskilt datamaskin, eller over et nettverk.
+
+Kjernen sørger også for tildelingen av CPU-tid til kjørende prosesser, slik at de kan kjøre samtidig på ulike CPU-kjerner, eller tilnærmet samtidig ved å fortløpende bytte prosessene som kjører på en CPU-kjerne. Moderne operativsystemer til generell bruk implementerer «preemptiv multitasking», hvor den kjørende prosessen blir avbrutt av en Interrupt slik at kjernen kan overføre kontroll til en annen prosess. Eldre operativsystemer og systemer med spesielle tids- og ressursbehov implementerer «kooperativ multitasking», hvor enhver prosess har ansvar for å frigi kontroll over prosessoren når den er ferdig med et stykke arbeid.
+
+De to vanligste typene operativsystemskjerner er de monolittiske kjernene og mikrokjernene. Monolittiske kjerner bygger på at hele kjernen fungerer som ett sammenvevd program der alle systemets funksjoner finnes inkludert. Linux og FreeBSD er eksempler på operativsystemer som bygger på monolittiske kjerner. Mikrokjerner er bygget opp av et stort antall mindre komponenter som kommuniserer mellom hverandre og tillater at komponenter legges til og tas bort mens systemet eksekveres. Operativsystemene QNX og Mac OS X bygger på mikrokjerner.
+
+En mindre vanlig type kjerne er exokjernen. Tanken bak exokjernene er at operativsystemet ikke skal sørge for noen som helst abstraksjoner – abstraksjonene skal i stedet implementeres som programbiblioteker. Ulike typer programmer krever nemlig ulike typer abstraksjoner. Exokjerner tillater derfor, til forskjell fra de andre kjernene, at vanlige programmer kommuniserer direkte med systemets maskinvare. Exokjernens oppgave blir da redusert til å passe på at programmene bare får tilgang til den delen av maskinvaren de har rett til. Eksempler på operativsystemer som bygger på en exokjerne er Exokernel og Nemesis.</p>
+    <h3 id="Linux">Linux(kjerne)</h3>
+    <P>Linux-kjernen er en fri Unix-liknende operativsystem-kjerne som ble skapt av finnen Linus Torvalds i 1991. I dag vedlikeholdes og videreutvikles den av et nettverk med brukere som blant annet består av store bedrifter som Intel, Red Hat, IBM, Hewlett-Packard og Novell, men fortsatt står gruppen «amatører» for 3,9% av endringene.[2]
+
+Linux-kjernen ble opprinnelig utviklet for Intels 80386-prosessor, men har senere blitt portert til mange andre plattformer. Den er skrevet nesten utelukkende i C med noen GNU C-språkutvidelser og AT&T assembler.
+
+Linux-kjernen er utviklet under GNU General Public License, og kildekoden er derfor fri programvare.
+
+Kjernen er best kjent som «hjertet» av operativsystemet Linux. Programvaresamlinger bestående av Linux-kjernen og andre typer programvare, kalles Linux-distribusjoner. En slik distribusjon består i tillegg til Linux-kjernen av mye programvare for GNU-prosjektet, og mange mener derfor at man bør kalle operativsystemet for GNU/Linux.</P>
+    <h3 id="FreeBSD">FreeBSD</h3>
+    <p>FreeBSD er et Unix-lignende operativsystem som arver fra den opprinnelige UNIX gjennom BSD-grenen. FreeBSD kan brukes på prosessorer kompatible med Intel sin x86-familie, samt UltraSPARC, Intel Itanium, AMD64, ARM og andre.
+
+FreeBSD er lisensiert under BSD-lisensen, som tillater fri bruk og distribusjon. Dette gjør FreeBSD til et fri programvare-system. Det finnes også en live versjon av FreeBSD som heter Freesbie.</p>
+    <h3 id="HTML">HTML</h3>
+    <p>HyperText Markup Language (HTML, hypertekstmarkeringsspråk) er et markeringsspråk for formatering av nettsider med hypertekst og annen informasjon som kan vises i en nettleser. HTML benyttes til å strukturere informasjon – angi noe tekst som overskrifter, avsnitt, lister og så videre – og kan, i en viss grad, brukes til å beskrive utseende og semantikk i et dokument. HTMLs grammatiske struktur er HTML DTD som ble skapt ved å gjøre bruk av SGML syntaks, som er en internasjonal standard for tekstformatering (ISO 8879).
+
+HTML ble opprinnelig definert i 1989 av Tim Berners-Lee og Robert Caillau og videreutviklet av IETF og er nå en internasjonal standard (ISO/IEC 15445:2000). Siden har HTML-spesifikasjonene blitt opprettholdt av World Wide Web Consortium (W3C).
+
+Tidlige versjoner av HTML ble definert med løsere syntaktiske regler som gjorde læring av bruken enkel for dem som ikke var vant med publisering på verdensveven. Nettleserne foretok gjerne sine egne antakelser om hvordan koden skulle forstås og skapte bildet av nettsiden. Utviklingen har riktignok gått mer i retning av striktere språklig syntaks, men fremdeles forventes nettlesere å produsere leservennlige sider selv om HTML-koden de er skrevet i er langt fra å etterleve gjeldende standarder.
+
+XHTML påtvinger HTML de striktere XML-reglene for å gjøre det enklere å prosessere og vedlikehold og er W3Cs etterfølger til HTML-standarden. Av den grunn ser mange på XHTML som den «nyeste versjonen» av HTML, men i virkeligheten er dette en egen, parallell standard. W3C anbefaler at man bruker enten XHTML 1.1, XHTML 1.0, eller HTML 4.01 når man lager nettsider.</p>
+    <br>
+    <p>Se her så lenge:</p><br>
+    <a href="http://www.hist.no" target="_blank">HIST</a>
+    <br>
+    <a href="http://www.nettavisen.no" target="_blank">Nettavisen</a>
+    <br>
+    <a href="startside.html">Tilbake</a>
+</body>

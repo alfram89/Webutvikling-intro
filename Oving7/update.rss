@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    
+    <channel>
+        <title>Rss Øving</title>
+        <link>http://gremlin.stud.aitel.hist.no/~aarambo/arbkrav/Oving7/update.rss</link>
+        <description>Dette er en prøve rss fil for en øving på HIST</description>
+        
+        <item>
+            <title>Ny startside laget!</title>
+            <link>http://gremlin.stud.aitel.hist.no/~aarambo/arbkrav/Oving7/index.html</link>
+            <description>Ny startside er nå laget, skjekk den ut!</description>
+        </item>
+        <item>
+            <title>Svg test</title>
+            <link>http://gremlin.stud.aitel.hist.no/~aarambo/arbkrav/Oving7/svg.html</link>
+            <description>Her kan du se en test av svg på en nettside.</description>
+        </item>
+        
+    </channel>
+    
+</rss>
